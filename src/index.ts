@@ -1,3 +1,5 @@
+import dotenv from "dotenv"
+import Server from "./models/server";
 
-console.log('holoo mundo')
-console.log('Juan mundo')
+dotenv.config() 
+const server = new Server();
